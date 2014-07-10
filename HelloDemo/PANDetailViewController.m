@@ -40,6 +40,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    UILabel *uiLable = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 50, 100)];
+    uiLable.text = @"Hello wuguang";
+    [self.view addSubview:uiLable];
+    
+    self.storyLabel.text = @"test";
+    self.labelButton.enabled = false;
 }
 
 - (void)didReceiveMemoryWarning

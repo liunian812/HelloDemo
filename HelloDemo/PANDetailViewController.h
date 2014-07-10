@@ -10,7 +10,9 @@
 
 @interface PANDetailViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *storyLabel;
 @property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) IBOutlet UIButton *labelButton;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
